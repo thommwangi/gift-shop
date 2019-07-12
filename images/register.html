@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+	<script type="text/javascript" src="jquery331.js"></script>
+	<meta charset="UTF-8">
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="info">
+        <h1>GIFT IT.COM</h1><span>Made with <i class="fa fa-heart"></i> by Rosanne and Kulthum</span>
+        </div>
+        <div class="form">
+        	<div class="thumbnail"><img src="download.jpg"/></div>
+    <form name="Register" class="register-form" action="insertregister.php" method="post" >
+  		<input class="input100" type="text" name="fullname" placeholder="Full Name">
+		<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+		<input class="input100" type="password" name="pass" placeholder="Password">
+		<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+     	<input class="input100" type="password" name="pass1" placeholder="Re-Enter Password">
+		<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+    	<input type="text" name="email" placeholder="email address"/>
+    	<div class="styled-select black rounded">
+		<select name="gender">
+			<option>Select Gender</option>
+			<option>Male</option>
+			<option>Female</option>
+			<option>Other</option>
+		</select>
+		</div><br>
+		<input type="text" name="submit" value="signup" style="display: none;">
+    	<button type="submit" id="btn2" value="Create Account">Create Account</button>
+    	<p class="message">Already registered? <a href="LoginForm.html"><button id="btn3">Sign In</button></a></p>
+  	</form>
+        </div>
+</div>
+</body>
+</html>
